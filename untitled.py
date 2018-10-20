@@ -93,7 +93,7 @@ if user == []:
 	print (color.GREEN+color.BOLD+"User : Not Found")
 else:
 	print (color.GREEN+"User enumerated : "+color.RED+'[!] '+''.join(user)+' [!]')
-last = '4.9.6'
+last = '4.9.8'
 if last != ''.join(version):
 	if version == [] :
 		print (color.GREEN+"Version : Not Found")
